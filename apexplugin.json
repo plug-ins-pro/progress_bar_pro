@@ -1,0 +1,34 @@
+{
+  "name" : "Progress Bar Pro",
+  "version" : "21.1",
+  "description" : "Progress Bar Pro is your weapon of choice in enhancing the user experience while waiting on longer-lasting procedures to complete. Users get real-time feedback from the database when running your code in the form of a modern, highly customizable progress bar. Use the complementary Plug-in API calls to notify your users of the current percentage of completion, the number of processed rows, or current step in the process they are running. Progress Bar Pro has you covered even if you want your users to be able to have insight into multiple jobs running in the background and their statuses.",
+  "keywords" : ["progress bar","background job","status", "long running"],
+  "homepage" : "https://www.plug-ins-pro.com/",
+  "bugs" : {
+    "url" : "https://github.com/plug-ins-pro/progress_bar_pro/issues",
+    "email" : "support@plug-ins-pro.com"
+  },
+  "license" : "Commercial",
+  "commercial" : "Yes",
+  "author" : {
+    "name" : "United Codes",
+    "email" : "info@plug-ins-pro.com",
+    "url" : "https://www.united-codes.com/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/plug-ins-pro/progress_bar_pro"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.x", "18.x", "19.x", "21.x"],
+    "apex" : {
+      "versions" : ["18.1.0", "19.2.0", "20.1.0", "20.2.0"],
+      "plugin" : {
+        "internalName" : "UNITEDCODES_PROGRESS_BAR",
+        "type" : "dynamic action",
+        "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/progress_bar",
+        "previewImage" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/606/files/static/v15/img/uc-plugins-pro-progressbar-preview.gif"
+      }
+    }
+  }
+}
