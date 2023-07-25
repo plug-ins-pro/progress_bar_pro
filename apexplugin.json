@@ -1,6 +1,6 @@
 {
     "name" : "Progress Bar Pro",
-    "version" : "22.1",
+    "version" : "23.1",
     "description" : "Progress Bar Pro is your weapon of choice in enhancing the user experience while waiting on longer-lasting procedures to complete. Users get real-time feedback from the database when running your code in the form of a modern, highly customizable progress bar. Use the complementary Plug-in API calls to notify your users of the current percentage of completion, the number of processed rows, or current step in the process they are running. Progress Bar Pro has you covered even if you want your users to be able to have insight into multiple jobs running in the background and their statuses.",
     "keywords" : ["progress bar","background job","status", "long running"],
     "homepage" : "https://www.plug-ins-pro.com/",
@@ -22,7 +22,7 @@
    "oracle" : {
       "versions" : ["12.x", "18.x", "19.x", "21.x"],
       "apex" : {
-        "versions" : ["18.1.0", "18.2.0", "19.1.0", "19.2.0", "20.1.0", "20.2.0", "21.1.0", "21.2.0", "22.1.0", "12.2.0"],
+        "versions" : ["19.2.0", "20.1.0", "20.2.0", "21.1.0", "21.2.0", "22.1.0", "12.2.0"],
         "plugin" : {
           "internalName" : "UNITEDCODES_PROGRESS_BAR",
           "type" : "dynamic action",
